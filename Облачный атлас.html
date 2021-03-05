@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная страница</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Киномонстр - это портал о кино" />
+	<meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="main">
+		
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="index.html">КиноМонстр</a></h1>
+					<h2>Кино - наша страсть!</h2>
+				</div>
+			</div>
+			
+			<div class="menubar">
+				
+				<ul class="menu">
+					<li><a href="index.html">Главная</a></li>	
+					<li><a href="films.html">Фильмы</a></li>
+					<li><a href="Сериал.html">Сериалы</a></li>
+					<li><a href="rating.html">Рейтинг фильмов</a></li>
+					<li><a href="Контакты.html">Контакты</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+			
+		<div class="site_content">
+			
+			<div class="sidebar_container">
+				
+				<div class="sidebar">
+					<h2>Поиск</h2>
+					<form method="post" action="#" id="search_form" >
+						<input type="search" name="search_field" placeholder="ваш запрос" />
+						<input type="submit" class="btn" value="найти" />
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>Вход</h2>
+					<form method="post" action="#" id="login">
+						
+						<input type="text" name="login_field" placeholder="логин" />
+						<input type="password" name="password_field" placeholder="пароль" />
+						<input type="submit" class="btn" value="вход" />
+						<div class="lables_passreg_text">
+							<span><a href="#">забыли пароль?</a></span> | <span><a href="#">регистрация</a></span>
+						</div>
+
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>Новости</h2>
+					<span>31.02.2018</span>
+					<p>Мы запустили расширенный поиск</p>
+					<a href="#">читать</a>
+				</div>
+
+				<div class="sidebar">
+					<h2>Рейтинг фильмов</h2>
+					<ul>
+						<li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
+						<li><a href="matrix.html">Матрица</a><span class="rating_sidebar">8.0</span></li>
+						<li class="selected"><a href="Безумный макс.html">Безумный макс</a><span class="rating_sidebar">7.5</span></li>
+						<li><a href="Облачный атлас.html">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
+					</ul>
+				</div>
+
+				</div>
+
+				<div class="content">
+			  <h1>Облачный атлас</h1>
+
+		<iframe width="540" height="315" src="https://www.youtube.com/embed/_rZou_PqFoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="info_film_page">
+			<span class="label">рейтинг : </span><span class="value">8.1 / 10</span>
+			<span class="label">Год : </span><span class="value">2014</span>
+			<span class="label">Режиссер : </span><span class="value">Кристифер Нолан</span>
+			
+			</div>
+			</div>
+
+			<hr>
+
+			<h2>Описание Облачный атлас</h2>
+
+			<div class="description_fiml">
+				<img src="assets/img/cloud.png">
+				Когда засуха приводит человечество к продовольственному кризису исследователей и ученых отправляется сквозь червоточину (которая передположительно соединяет области пространство-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету. 
+			</div>
+
+			<hr>
+
+			<h2>Отзывы об Облачный атлас</h2>
+
+			<div class="Comment">
+				<h3>Сергей</h3>
+			<p>Отличный фильм, 3 часа пролетели не заметно</p>
+			
+			<h3>Дмитрий</h3>
+			<p>После фильма Начало я с не терпением ждал еще работ от Кристофера Нолана Интерестеллар меня впечатлил</p>
+				</div>
+				<div class="send">
+					<form method="post" action="#" id="review" >
+						<input type="text" name="review_name" placeholder="ваш имя"> 
+						<textarea name="review_text"></textarea>
+						<input type="submit" class="btn" value="отправить">
+					</form>
+
+
+				</div>
+
+</body>
+</html>
